@@ -1,7 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import Index from "../views/Index.vue";
 import SpecContest from "@/views/SpecContest";
 import AccelerationCamp from "@/views/AccelerationCamp";
+import EventNews from "../views/EventNews.vue";
+import ProjectDisplay from "../views/ProjectDisplay.vue";
 
 const routes = [
   {
@@ -20,6 +22,16 @@ const routes = [
     component: AccelerationCamp
   },
   {
+    path: "/event-news",
+    name: "event-news",
+    component: EventNews
+  },
+  {
+    path: "/project-display",
+    name: "project-display",
+    component: ProjectDisplay
+  },
+  {
     path: "/about",
     name: "About",
     // route level code-splitting
@@ -30,7 +42,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(process.env.BASE_URL),
   routes
 });
 

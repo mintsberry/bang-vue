@@ -89,7 +89,7 @@
         :data="item"
       ></CampCase>
       <div class="more">
-        <span class="button">查看更多</span>
+        <router-link to="/project-display" class="button">查看更多</router-link>
       </div>
     </div>
   </div>

@@ -21,7 +21,8 @@ export default {
   }
   .small-title {
     color: #a1a4a9;
-    transform: scale(0.6);
+    font-size: $font-size-small;
+    transform: scale(0.825);
   }
   .under-line {
     display: block;

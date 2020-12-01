@@ -60,27 +60,27 @@ export default {
           path: "/advisor"
         },
         {
-          name: '赛事动态',
+          name: "赛事动态",
           path: "/event-news"
         },
         {
-          name: '关于夯邦',
-          path: '/about',
-        },
-      ],
-    }
+          name: "关于夯邦",
+          path: "/about"
+        }
+      ]
+    };
   },
   computed: {},
   methods: {
     switchNav() {
-      this.showNav = !this.showNav
-      this.showMask = !this.showMask
-    },
-  },
-}
+      this.showNav = !this.showNav;
+      this.showMask = !this.showMask;
+    }
+  }
+};
 </script>
 <style lang="scss" scoped>
-@import '../../common/scss/variable.scss';
+@import "../../common/scss/variable.scss";
 .header {
   .top {
     display: flex;

@@ -1,7 +1,10 @@
 <template>
   <div class="index">
     <div class="banner">
-      <img class="img" src="http://img.polydt.com/hangbang/1.index/banner.png" />
+      <img
+        class="img"
+        src="http://img.polydt.com/hangbang/1.index/banner.png"
+      />
     </div>
 
     <div class="introduce">
@@ -20,7 +23,10 @@
         <p class="small-title">Competition video</p>
         <span class="titleBar"></span>
         <div class="video-titleBar" @click="showVideo">
-          <img class="video-skin" src="http://img.polydt.com/hangbang/视频封面.png" />
+          <img
+            class="video-skin"
+            src="http://img.polydt.com/hangbang/视频封面.png"
+          />
           <video id="descriptions" class="description" controls="controls">
             <source src="http://img.polydt.com/hangbang/video/hb.mp4" />
           </video>
@@ -36,25 +42,40 @@
       <div class="iconDiv">
         <div class="box1">
           <a href="/frontStage/specContestLvsebaozhuang">
-            <img id="lvse" src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-1.png" />
+            <img
+              id="lvse"
+              src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-1.png"
+            />
             <p>绿色包装</p>
           </a>
           <a href="/frontStage/toSpecContestXianJin">
-            <img id="xianjin" src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-2.png" />
+            <img
+              id="xianjin"
+              src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-2.png"
+            />
             <p>先进半导体</p>
           </a>
         </div>
         <div class="box2">
           <a href="/frontStage/specContestQinneng">
-            <img id="qinneng" src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-3.png" />
+            <img
+              id="qinneng"
+              src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-3.png"
+            />
             <p>氢能及燃料电池</p>
           </a>
           <a href="/frontStage/toSpecContestDianZi">
-            <img id="dianzi" src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-4.png" />
+            <img
+              id="dianzi"
+              src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-4.png"
+            />
             <p>电子产品热管理</p>
           </a>
           <a href="/frontStage/specContestGaonengliangmiducunchu">
-            <img id="gaoneng" src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-5.png" />
+            <img
+              id="gaoneng"
+              src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-5.png"
+            />
             <p>高能量密度储能</p>
           </a>
         </div>
@@ -100,8 +121,12 @@
       </div>
       <p class="host">主办单位:</p>
       <div class="hostDiv">
-        <img src="http://img.polydt.com/hangbang/1.index/Organization-1.1.png" />
-        <img src="http://img.polydt.com/hangbang/1.index/Organization-1.2.png" />
+        <img
+          src="http://img.polydt.com/hangbang/1.index/Organization-1.1.png"
+        />
+        <img
+          src="http://img.polydt.com/hangbang/1.index/Organization-1.2.png"
+        />
       </div>
     </div>
     <div class="partner">
@@ -115,19 +140,37 @@
           <img :src="logo" />
         </span>
         <span class="enterprise show">
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.4.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.5.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.6.png" />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.4.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.5.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.6.png"
+          />
         </span>
         <span class="enterprise show">
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.1.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.2.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.3.png" />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.1.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.2.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.3.png"
+          />
         </span>
         <span class="enterprise show">
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.4.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.5.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.6.png" />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.4.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.5.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-3.6.png"
+          />
         </span>
         <div class="btnDiv" @click="showMore">
           <button class="more" id="ent-more">更多&gt;&gt;</button>
@@ -145,14 +188,26 @@
           <img :src="logo" />
         </span>
         <span class="enterprise show2">
-          <img src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.5.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.1.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.2.png" />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.5.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.1.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.2.png"
+          />
         </span>
         <span class="enterprise show2">
-          <img src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.3.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.4.png" />
-          <img src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.5.png" />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.3.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.4.png"
+          />
+          <img
+            src="http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-3.5.png"
+          />
         </span>
 
         <div class="btnDiv2" @click="showMore2">
@@ -215,112 +270,112 @@
   </div>
 </template>
 <script>
-import BScroll from 'better-scroll'
+import BScroll from "better-scroll";
 export default {
   components: {},
   props: {},
   data() {
     return {
       logos: [
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.1.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.2.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.3.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.4.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.5.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.6.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.1.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.2.png',
-        'http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.3.png',
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.1.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.2.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.3.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.4.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.5.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-1.6.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.1.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.2.png",
+        "http://img.polydt.com/hangbang/PartnerEnterprise/Partner(enterprise)-2.3.png"
       ],
       logos2: [
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.1.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.2.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.3.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.4.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.5.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.1.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.2.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.3.png',
-        'http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.4.png',
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.1.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.2.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.3.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.4.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-1.5.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.1.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.2.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.3.png",
+        "http://img.polydt.com/hangbang/PartnerPlatform/Partner(platform)-2.4.png"
       ],
       companion: [
-        'http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.1.png',
-        'http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.2.png',
-        'http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.3.png',
-        'http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.4.png',
-        'http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.5.png',
-        'http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-2.1.png',
+        "http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.1.png",
+        "http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.2.png",
+        "http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.3.png",
+        "http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.4.png",
+        "http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-1.5.png",
+        "http://img.polydt.com/hangbang/InvestmentInstitutions/InvestmentInstitutions-2.1.png"
       ],
       index: 0,
       index1: 0,
-      index2: 0,
-    }
+      index2: 0
+    };
   },
   computed: {},
   mounted() {
     this.$nextTick(() => {
-      this._initScroll()
-    })
+      this._initScroll();
+    });
   },
   methods: {
     _initScroll() {
-      new BScroll('.wrap', {
+      new BScroll(".wrap", {
         startX: 0,
         scrollX: true,
         scrollY: false,
-        eventPassthrough: 'vertical',
-      })
+        eventPassthrough: "vertical"
+      });
     },
     showVideo() {
-      const video = document.getElementById('descriptions')
-      video.style.display = 'block'
-      video.play()
+      const video = document.getElementById("descriptions");
+      video.style.display = "block";
+      video.play();
     },
     showMore() {
-      const logo = document.getElementById('logo')
-      const node = document.getElementsByClassName('show')
-      const btn = document.getElementsByClassName('btnDiv')
+      const logo = document.getElementById("logo");
+      const node = document.getElementsByClassName("show");
+      const btn = document.getElementsByClassName("btnDiv");
       if (this.index < 3) {
-        node[this.index++].style.display = 'block'
+        node[this.index++].style.display = "block";
 
-        logo.style.height = logo.clientHeight + 55 + 'px'
+        logo.style.height = logo.clientHeight + 55 + "px";
       }
-      console.log(btn[0])
+      console.log(btn[0]);
       if (this.index === 3) {
-        btn[0].style.display = 'none'
+        btn[0].style.display = "none";
       }
     },
     showMore2() {
-      let logo = document.getElementById('logo2')
-      const node = document.getElementsByClassName('show2')
-      const btn = document.getElementsByClassName('btnDiv2')
+      let logo = document.getElementById("logo2");
+      const node = document.getElementsByClassName("show2");
+      const btn = document.getElementsByClassName("btnDiv2");
       if (this.index1 < 3) {
-        node[this.index1++].style.display = 'block'
-        logo.style.height = logo.clientHeight + 55 + 'px'
+        node[this.index1++].style.display = "block";
+        logo.style.height = logo.clientHeight + 55 + "px";
       }
-      console.log(btn[0].style)
+      console.log(btn[0].style);
       if (this.index1 === 2) {
-        btn[0].style.display = 'none'
+        btn[0].style.display = "none";
       }
     },
     showMore3() {
-      let logo = document.getElementById('logo3')
-      const node = document.getElementsByClassName('show3')
-      const btn = document.getElementsByClassName('btnDiv3')
+      let logo = document.getElementById("logo3");
+      const node = document.getElementsByClassName("show3");
+      const btn = document.getElementsByClassName("btnDiv3");
       if (this.index2 < 5) {
-        node[this.index2++].style.display = 'block'
-        logo.style.height = logo.clientHeight + 55 + 'px'
+        node[this.index2++].style.display = "block";
+        logo.style.height = logo.clientHeight + 55 + "px";
       }
 
       if (this.index2 === 5) {
-        btn[0].style.display = 'none'
+        btn[0].style.display = "none";
       }
-    },
-  },
-}
+    }
+  }
+};
 </script>
 <style lang="scss" scoped>
-@import '../common/scss//variable.scss';
+@import "../common/scss//variable.scss";
 .index {
   width: 100%;
   font-family: Microsoft YaHei;
@@ -339,7 +394,6 @@ export default {
   p.small-title {
     color: #a1a4a9;
     transform: scale(0.6);
-    margin-top: 4px;
   }
   .titleDiv {
     margin-top: 18px;

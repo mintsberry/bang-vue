@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="title">
-      <span>赞助 合作</span>
+      <span>赞助合作:</span>
     </div>
     <div class="box">
       <div class="left">

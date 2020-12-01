@@ -23,7 +23,8 @@
           :to="item.path"
           class="nav-item"
           active-class="active"
-        >{{ item.name }}</router-link>
+          >{{ item.name }}</router-link
+        >
       </template>
     </nav>
     <div class="mask" v-show="showMask" @click="switchNav"></div>
@@ -39,28 +40,28 @@ export default {
       showMask: false,
       routers: [
         {
-          name: '首页',
-          path: '/',
+          name: "首页",
+          path: "/"
         },
         {
-          name: '专题赛',
-          path: '/spec-contest',
+          name: "专题赛",
+          path: "/spec-contest"
         },
         {
-          name: '定制赛',
-          path: '/custom-contest',
+          name: "定制赛",
+          path: "/custom-contest"
         },
         {
-          name: '加速赛',
-          path: '/acceleration-camp',
+          name: "加速赛",
+          path: "/acceleration-camp"
         },
         {
-          name: '导师与顾问',
-          path: '/advisor',
+          name: "导师与顾问",
+          path: "/advisor"
         },
         {
           name: '赛事动态',
-          path: '/acceleration-camp',
+          path: "/event-news"
         },
         {
           name: '关于夯邦',

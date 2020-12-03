@@ -6,3 +6,7 @@ import "./common/scss/index.scss";
 createApp(App)
   .use(router)
   .mount("#app");
+
+router.afterEach(() => {
+  window.scrollTo(0, 0);
+});

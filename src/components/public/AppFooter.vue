@@ -36,11 +36,11 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="scss" scoped>
-@import '../../common/scss/variable.scss';
+@import "../../common/scss/variable.scss";
 .footer {
   font-size: $font-size-medium-x;
   color: #b3b6dd;
@@ -58,8 +58,7 @@ export default {}
     box-sizing: border-box;
     display: flex;
     line-height: 1.8;
-    margin-top: -50px;
-
+    margin-top: -60px;
     position: relative;
     .left {
       box-sizing: border-box;

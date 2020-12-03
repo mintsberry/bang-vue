@@ -20,17 +20,17 @@ export default {
     font-weight: bold;
   }
   .small-title {
-    color: #a1a4a9;
-    font-size: $font-size-small;
-    transform: scale(0.825);
+    font-size: 12px;
+    transform: scale(0.5);
+    margin-top: -5px;
   }
   .under-line {
     display: block;
     height: 4px;
-    width: 65px;
+    width: 33px;
     background: #2680bf;
     border-radius: 4px;
-    margin: 5px auto;
+    margin: 0 auto;
   }
 }
 </style>

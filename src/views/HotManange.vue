@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="banner">
-      <img src="../common/images/SpecialCompetition-banner1.png" alt />
+      <img src="http://img.polydt.com/hangbang/2.specContest/SpecialCompetition-banner2.png" alt />
     </div>
     <div class="bg-introduce">
       <div class="head">
@@ -13,12 +13,14 @@
 
         <div class="context">
           <p>
-            在复杂国际环境下，从业界到大众，围绕着一些企业“缺芯”问题展开了深入的思考，也看到了目前中国对于半导体芯片及材料国产替代的大量需求，然而中国半导体芯片技术和国外差距仍然巨大。但是由于目前摩尔定律的放缓，对于材料及技术的升级需求相对放缓，中国厂商具备了该赛道上追赶甚至超车的机会。
-            虽然中国在芯片产业链建设上已经取得了一定的成果，但要推动芯片产业的长线发展，不仅仅是政策支持与走姿的问题。为了推动中国芯片产业发展，需进一步探索科研与企业联动的发展模式。
+            在电子设备高性能、小型化发展趋势下，散热设计在电子设备开发中重要性越来越大。在消费电子领域，硬件设备的泛智能化时代到来，高精密度的智能手机、 笔记本电脑等产品对导热\散热等需求迫切。特别是5G的建设将会带来大量的基站建设投入，导热产品在通信领域同样有着广泛应用；而在新兴领域中，汽车电子、 数据中心等领域，都对及时散热需求越来越强烈；长期看，物联网车联网等驱动数据中心需求新增长，AR/VR等新应用终端兴起，带来散热市场广阔的长期增长空间。
+            对于国内研究单位和企业而言，一旦自主的技术和品牌通过市场验证和终端厂家认证，凭借技术和成本优势，下游主流国内模切件的制造商将很有动力采用国产品牌材料， 从而会迅速优化产品迭代，提高产品市场份额，实现国内热管理材料的快速发展。
+            以5G为例，热管/均热板将从笔点、服务器领域向智能手机渗透，随着5G手机换机潮和基站建设高峰到来，全球5G智能手机和国内基站散热市场规模有望在2020-2022 年间分别达到360亿和59亿元。
           </p>
-          <p>先进半导体创新赛将以打造“中国芯”为重点方向，面向全球招募优秀项目与团队，协助国内优秀项目与投资对接，实现落地合作。</p>
-          <div class="pic"></div>
-          <img src="../assets/1.png" />
+          <div class="img">
+            <div class="pic"></div>
+            <img src="../assets/5.png" />
+          </div>
         </div>
       </div>
     </div>
@@ -29,18 +31,14 @@
         <span class="titleBar"></span>
       </div>
       <div class="colContent">
-        <p class="col-title">1.半导体集成电路和半导体芯片的设计</p>
+        <p class="col-title">包括但不限于</p>
         <div class="col-listDiv">
-          <p class="col-list">逻辑芯片设计</p>
-          <p class="col-list">5G射频芯片设计</p>
-          <p class="col-list">存储芯片设计</p>
-          <p class="col-list">CPU芯片设计</p>
-          <p class="col-list">系统架构设计</p>
-          <p class="col-list">EDA等仿真工具和软件的开放</p>
-        </div>
-        <p class="col-title">2.泛半导体材料</p>
-        <div class="col-listDiv">
-          <p class="col-list">CMP抛光液，抛光垫，光刻胶，光掩膜，湿化学品，IC载板等。</p>
+          <p class="col-list">1.热设计软件模块开发，热设计方案</p>
+          <p class="col-list">
+            2.高导热\散热材料:石墨/石墨烯散热片，热界面材料，热管/均热板，相变材料,
+            液态金属，导热填料等。
+          </p>
+          <p class="col-list">3.热管理模块整体解决方案。</p>
         </div>
       </div>
     </div>
@@ -67,16 +65,18 @@ export default {
   width: 100%;
   img {
     width: 100%;
+    height: 175px;
   }
 }
 .bg-introduce {
   width: 100%;
-  height: 560px;
-
+  height: 100%;
   position: relative;
   margin-top: 20px;
   .head {
     text-align: center;
+    height: 680px;
+
     .context {
       text-indent: 1.5em;
       text-align: justify;
@@ -90,30 +90,35 @@ export default {
       padding-left: 24px;
       padding-right: 24px;
     }
-    .pic {
-      position: absolute;
-      top: 290px;
-      left: 37px;
-      width: 273px;
+    .img {
+      text-align: center;
       height: 130px;
-      border: 1px solid $color-border-bottom;
-      box-sizing: border-box;
-    }
-    img {
-      position: absolute;
-      left: 50%;
-      top: 300px;
-      transform: translateX(-50%);
-      width: 283px;
+      margin-top: 15px;
+      .pic {
+        position: absolute;
+        top: 410px;
+        left: 47px;
+        width: 273px;
+        height: 150px;
+        border: 1px solid $color-border-bottom;
+        box-sizing: border-box;
+        z-index: -1;
+      }
+      img {
+        margin: 10px auto;
+        height: 175px;
+        width: 283px;
+      }
     }
   }
 }
 .collect-direction {
   width: 100%;
-  height: 375px;
+
   box-sizing: border-box;
   background-image: url('../common/images/Collection-direction1.png');
   padding-top: 1px;
+  padding-bottom: 20px;
   .colContent {
     .col-title {
       width: 268px;
@@ -140,7 +145,7 @@ export default {
 }
 .project {
   width: 100%;
-  height: 415px;
+
   .enroll-project {
     margin-top: 17px;
     position: relative;

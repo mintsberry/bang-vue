@@ -87,6 +87,7 @@
         v-for="(item, index) in classic"
         :key="index"
         :data="item"
+        @click="clickCase"
       ></CampCase>
       <div class="more">
         <router-link to="/project-display" class="button">查看更多</router-link>
@@ -97,6 +98,7 @@
 <script>
 import ContextTitle from "../components/public/ContextTitle.vue";
 import CampCase from "../components/camp/CampCase.vue";
+import router from "../router";
 export default {
   components: {
     ContextTitle,
@@ -150,9 +152,13 @@ export default {
         text: ["项目背景及需求", "夯邦加速服务成果", "夯邦服务过程"]
       }
     ];
+    function clickCase() {
+      router.push("/project-detail");
+    }
     return {
       support,
-      classic
+      classic,
+      clickCase
     };
   }
 };

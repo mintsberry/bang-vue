@@ -41,43 +41,43 @@
       </div>
       <div class="iconDiv">
         <div class="box1">
-          <a href="/frontStage/specContestLvsebaozhuang">
+          <router-link to="/green-package">
             <img
               id="lvse"
               src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-1.png"
             />
             <p>绿色包装</p>
-          </a>
-          <a href="/frontStage/toSpecContestXianJin">
+          </router-link>
+          <router-link to="/spec-contest">
             <img
               id="xianjin"
               src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-2.png"
             />
             <p>先进半导体</p>
-          </a>
+          </router-link>
         </div>
         <div class="box2">
-          <a href="/frontStage/specContestQinneng">
+          <router-link to="/bettery">
             <img
               id="qinneng"
               src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-3.png"
             />
             <p>氢能及燃料电池</p>
-          </a>
-          <a href="/frontStage/toSpecContestDianZi">
+          </router-link>
+          <router-link to="/hot-manange">
             <img
               id="dianzi"
               src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-4.png"
             />
             <p>电子产品热管理</p>
-          </a>
-          <a href="/frontStage/specContestGaonengliangmiducunchu">
+          </router-link>
+          <router-link to="/high-energy">
             <img
               id="gaoneng"
               src="http://img.polydt.com/hangbang/1.index/ThematicChallenge-5.png"
             />
             <p>高能量密度储能</p>
-          </a>
+          </router-link>
         </div>
         <div class="icon"></div>
       </div>
@@ -338,9 +338,9 @@ export default {
       if (this.index < 3) {
         node[this.index++].style.display = "block";
 
-        logo.style.height = logo.clientHeight + 55 + "px";
+        logo.style.height = logo.clientHeight + 65 + "px";
       }
-      console.log(btn[0]);
+
       if (this.index === 3) {
         btn[0].style.display = "none";
       }
@@ -351,9 +351,9 @@ export default {
       const btn = document.getElementsByClassName("btnDiv2");
       if (this.index1 < 3) {
         node[this.index1++].style.display = "block";
-        logo.style.height = logo.clientHeight + 55 + "px";
+        logo.style.height = logo.clientHeight + 65 + "px";
       }
-      console.log(btn[0].style);
+
       if (this.index1 === 2) {
         btn[0].style.display = "none";
       }
@@ -364,7 +364,7 @@ export default {
       const btn = document.getElementsByClassName("btnDiv3");
       if (this.index2 < 5) {
         node[this.index2++].style.display = "block";
-        logo.style.height = logo.clientHeight + 55 + "px";
+        logo.style.height = logo.clientHeight + 65 + "px";
       }
 
       if (this.index2 === 5) {
@@ -378,30 +378,12 @@ export default {
 @import "../common/scss//variable.scss";
 .index {
   width: 100%;
-  font-family: Microsoft YaHei;
+  font-family: "Microsoft YaHei";
   box-sizing: border-box;
-  span.titleBar {
-    display: block;
-    height: 4px;
-    width: 65px;
-    background: #2680bf;
-    border-radius: 4px;
-    margin: 5px auto;
-  }
-  p.title {
-    font-size: $font-size-large;
-  }
-  p.small-title {
-    color: #a1a4a9;
-    transform: scale(0.6);
-  }
-  .titleDiv {
-    margin-top: 18px;
-    text-align: center;
-  }
 
   .banner {
     box-sizing: border-box;
+    height: 175px;
     .img {
       width: 100%;
     }
@@ -409,31 +391,27 @@ export default {
 
   .introduce {
     width: 100%;
-    height: 520px;
+    height: 550px;
     .text {
       width: 100%;
-      height: 225px;
-
+      height: 260px;
       background-image: url(http://img.polydt.com/hangbang/1.index/CentralSection-bj.png);
       background-repeat: no-repeat;
       background-size: cover;
+      background-position: -190px;
 
       .description {
         text-indent: 2em;
         text-align: justify;
-        margin: 8px;
+        padding: 10px 24px 0 24px;
         line-height: 25px;
-        font-size: $font-size-small;
+        font-size: $font-size-medium;
       }
     }
     .small-title {
-      width: 200px;
-      font-size: smaller;
-      color: #a1a4a9;
-
-      margin-top: -10px;
-      transform: scale(0.82);
-      box-sizing: border-box;
+      width: 180px;
+      margin-top: -20px;
+      margin-left: -26px;
     }
     .title {
       font-size: $font-size-medium-x;
@@ -645,9 +623,6 @@ export default {
         }
       }
     }
-  }
-  .invest {
-    margin-top: -20px;
   }
 }
 </style>

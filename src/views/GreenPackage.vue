@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="banner">
-      <img src="../common/images/SpecialCompetition-banner1.png" alt />
+      <img src="http://img.polydt.com/hangbang/2.specContest/SpecialCompetition-banner3.png" alt />
     </div>
     <div class="bg-introduce">
       <div class="head">
@@ -12,13 +12,11 @@
         </div>
 
         <div class="context">
-          <p>
-            在复杂国际环境下，从业界到大众，围绕着一些企业“缺芯”问题展开了深入的思考，也看到了目前中国对于半导体芯片及材料国产替代的大量需求，然而中国半导体芯片技术和国外差距仍然巨大。但是由于目前摩尔定律的放缓，对于材料及技术的升级需求相对放缓，中国厂商具备了该赛道上追赶甚至超车的机会。
-            虽然中国在芯片产业链建设上已经取得了一定的成果，但要推动芯片产业的长线发展，不仅仅是政策支持与走姿的问题。为了推动中国芯片产业发展，需进一步探索科研与企业联动的发展模式。
-          </p>
-          <p>先进半导体创新赛将以打造“中国芯”为重点方向，面向全球招募优秀项目与团队，协助国内优秀项目与投资对接，实现落地合作。</p>
-          <div class="pic"></div>
-          <img src="../assets/1.png" />
+          <p>包装产业作为“朝阳产业”，必将对全球制造业发展及其产品的国际间流通产生不可低估的作用。 据估算，我国快递业每年消耗的纸类废弃物超过900万吨、塑料废弃物约180万吨，并呈快速增长趋势， 对环境造成的影响不容忽视。加强快递包装污染治理已受到政府和产业界的高度关注。绿色包装是指以环境友好、 资源节约为核心要素，在包装设计、研发、生产、使用和再生循环的全生命周期中，对生态环境和人类健康无害或危害小， 并且能够节能降耗，符合可持续发展的包装产品及相关技术。要实现快递包装的绿色化、减量化和可循环，还需要标准予以支撑。 目前，我国在快递包装上已出台一系列标准，涉及快递封套、包装袋、包装箱、生物降解胶带、电子运单等诸多方面， 为支撑快递业绿色发展发挥了积极作用。但随着快递业转型发展，与交通运输业、制造业等深度融合，在快递绿色包装新材料、 新技术、新产品，以及快递包装一体化运作等方面，还需要继续改善。</p>
+          <div class="img">
+            <div class="pic"></div>
+            <img src="../assets/2.png" />
+          </div>
         </div>
       </div>
     </div>
@@ -29,18 +27,22 @@
         <span class="titleBar"></span>
       </div>
       <div class="colContent">
-        <p class="col-title">1.半导体集成电路和半导体芯片的设计</p>
+        <p class="col-title">包括但不限于</p>
         <div class="col-listDiv">
-          <p class="col-list">逻辑芯片设计</p>
-          <p class="col-list">5G射频芯片设计</p>
-          <p class="col-list">存储芯片设计</p>
-          <p class="col-list">CPU芯片设计</p>
-          <p class="col-list">系统架构设计</p>
-          <p class="col-list">EDA等仿真工具和软件的开放</p>
-        </div>
-        <p class="col-title">2.泛半导体材料</p>
-        <div class="col-listDiv">
-          <p class="col-list">CMP抛光液，抛光垫，光刻胶，光掩膜，湿化学品，IC载板等。</p>
+          <p class="col-list" style="font-weight: 600;font-size: 14px;">1.包装减量设计</p>
+          <p class="col-list">绿色设计原则</p>
+          <p class="col-list">包装减量设计</p>
+          <p class="col-list">视觉色彩减量化设计</p>
+          <p class="col-list">减量型包装的优化功能</p>
+          <p class="col-list" style="font-weight: 600;font-size: 14px;">2.包装回收</p>
+          <p class="col-list">有效快递包装回收体系建立</p>
+          <p class="col-list">包装回收宣传与推广</p>
+          <p class="col-list">包装回收的法律法规解读</p>
+          <p class="col-list" style="font-weight: 600;font-size: 14px;">3.可降解包装</p>
+          <p class="col-list">
+            禁塑条件下，可降解包装材料与纸质包装材料/可食性包装材料竞争
+            主要降解材料PLA、PHA、PBS、PBAT、淀粉基塑料在包装中的应用
+          </p>
         </div>
       </div>
     </div>
@@ -67,16 +69,18 @@ export default {
   width: 100%;
   img {
     width: 100%;
+    height: 175px;
   }
 }
 .bg-introduce {
   width: 100%;
-  height: 560px;
-
+  height: 100%;
   position: relative;
   margin-top: 20px;
   .head {
     text-align: center;
+    height: 638px;
+
     .context {
       text-indent: 1.5em;
       text-align: justify;
@@ -90,30 +94,35 @@ export default {
       padding-left: 24px;
       padding-right: 24px;
     }
-    .pic {
-      position: absolute;
-      top: 290px;
-      left: 37px;
-      width: 273px;
+    .img {
+      text-align: center;
       height: 130px;
-      border: 1px solid $color-border-bottom;
-      box-sizing: border-box;
-    }
-    img {
-      position: absolute;
-      left: 50%;
-      top: 300px;
-      transform: translateX(-50%);
-      width: 283px;
+      margin-top: 15px;
+      .pic {
+        position: absolute;
+        top: 370px;
+        left: 47px;
+        width: 273px;
+        height: 150px;
+        border: 1px solid $color-border-bottom;
+        box-sizing: border-box;
+        z-index: -1;
+      }
+      img {
+        margin: 10px auto;
+        height: 175px;
+        width: 283px;
+      }
     }
   }
 }
 .collect-direction {
   width: 100%;
-  height: 375px;
+
   box-sizing: border-box;
   background-image: url('../common/images/Collection-direction1.png');
   padding-top: 1px;
+  padding-bottom: 20px;
   .colContent {
     .col-title {
       width: 268px;
@@ -140,7 +149,7 @@ export default {
 }
 .project {
   width: 100%;
-  height: 415px;
+
   .enroll-project {
     margin-top: 17px;
     position: relative;

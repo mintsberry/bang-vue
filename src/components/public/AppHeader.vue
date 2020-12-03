@@ -13,7 +13,7 @@
           /
           <span>EN</span>
         </div>
-        <i class="iconfont icon-index"></i>
+        <i @click="toIndex" class="iconfont icon-index"></i>
       </div>
     </div>
     <nav class="nav" v-show="showNav" @click="switchNav">
@@ -31,6 +31,7 @@
   </div>
 </template>
 <script>
+import router from "../../router";
 export default {
   components: {},
   props: {},
@@ -75,6 +76,9 @@ export default {
     switchNav() {
       this.showNav = !this.showNav;
       this.showMask = !this.showMask;
+    },
+    toIndex() {
+      router.push("/");
     }
   }
 };
@@ -143,6 +147,7 @@ export default {
     }
   }
   .mask {
+    z-index: 99;
     position: fixed;
     top: 50px;
     bottom: 0;

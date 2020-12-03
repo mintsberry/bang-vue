@@ -1,12 +1,21 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import {
+  createRouter,
+  createWebHistory
+} from "vue-router";
 import Index from "../views/Index.vue";
 import SpecContest from "@/views/SpecContest";
 import AccelerationCamp from "@/views/AccelerationCamp";
 import EventNews from "../views/EventNews.vue";
 import ProjectDisplay from "../views/ProjectDisplay.vue";
+import ProjectDetail from "../views/ProjectDetail.vue";
+import CustomContest from "../views/CustomContest.vue";
+import Advisor from "../views/Advisor.vue";
+import GreenPackage from '@/views/GreenPackage'
+import Bettery from '@/views/Bettery'
+import HighEnergy from '@/views/HighEnergy'
+import HotManange from '@/views/HotManange'
 
-const routes = [
-  {
+const routes = [{
     path: "/",
     name: "Index",
     component: Index
@@ -23,13 +32,47 @@ const routes = [
   },
   {
     path: "/event-news",
-    name: "event-news",
+    name: "EventNews",
     component: EventNews
   },
   {
+    path: "/project-detail",
+    name: "ProjectDetail",
+    component: ProjectDetail
+  },
+  {
+    path: "/advisor",
+    name: "Advisor",
+    component: Advisor
+  },
+  {
+    path: "/custom-contest",
+    name: "CustomContest",
+    component: CustomContest
+  },
+  {
     path: "/project-display",
-    name: "project-display",
+    name: "ProjectDisplay",
     component: ProjectDisplay
+  },
+  {
+    path: "/green-package",
+    name: "GreenPackage",
+    component: GreenPackage
+  },
+  {
+    path: "/hot-manange",
+    name: "HotManange",
+    component: HotManange
+  },
+  {
+    path: "/bettery",
+    name: "Bettery",
+    component: Bettery
+  }, {
+    path: "/high-energy",
+    name: "HighEnergy",
+    component: HighEnergy
   },
   {
     path: "/about",
@@ -42,7 +85,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(process.env.BASE_URL),
+  history: createWebHistory(process.env.BASE_URL),
   routes
 });
 
